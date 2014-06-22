@@ -1,0 +1,508 @@
+/****************/
+/* GENERAL CSS  */
+/****************/
+#body {
+	font-family: Garamond, Times;
+}
+
+#body_left {
+	background: #FAFAD2; //light goldenrod
+}
+#body_right {
+	background: #FAFAD2; //light goldenrod 
+}
+
+h1
+{   
+	font-style:italic;
+	font-size:24px;
+}
+
+h2
+{
+	font-weight:bold;
+	font-size:20px;
+}
+
+h3
+{
+	font-size:14px;
+	font-variant:small-caps;
+	font-weight:bold;
+}
+
+a, {text-decoration:none;color:#000000;}
+a:visited {text-decoration:none;color:#000000;}
+a:active {text-decoration:none;color:#000000;}
+a:hover {text-decoration:none;background:#FFFF99; color:#000000;}
+
+ul.links li {
+	border-left: 1px solid #d3d3d3; /* LTR */
+}
+td.section.divider {
+	border-left: 1px dashed #ddd; /* LTR */
+}
+.node.teaser {
+	border-bottom: 1px dashed #ddd;
+}
+.meta .submitted {
+	display:none;
+	visibility:hidden;
+}
+
+.submitted, .links {
+	color: #3f3f3f;
+}
+.comment {
+	border: 1px solid #d3d3d3;
+}
+.comment .title {
+	background: transparent url(../images/all/icon-comment.png) left center no-repeat; /* LTR */
+}
+blockquote, .messages {
+	background-color: #eee;
+	border: 1px solid #ccc;
+}
+.form-item label, .item-list .title {
+	color: #222;
+}
+div.admin-panel .body {
+	background-color: #f4f4f4;
+}
+div.admin-panel h3 {
+	color: #abc;
+}
+#site-slogan {
+	color: #000;
+}
+#search .form-text, #search .form-submit {
+	border: 1px solid #555;
+}
+#mission {
+	color: #535353;
+	border: solid 1px #ddd;
+}
+#breadcrumb, #breadcrumb a {
+	color: #1e201b !important;
+}
+#bottom_left {
+	padding-top:5px;
+	background: #FAFAD2; //light goldenrod
+	border-top: 1px solid #ddd;
+
+}
+#footer, #footer a {
+	color: #888 !important;
+}
+#footer ul.links li {
+	border-left: 1px solid #909090;
+}
+.by, .by a, .by a:hover {
+	color: #ddd !important;
+}
+#aggregator .feed-source {
+	background-color: #eee;
+	border: 1px solid #ccc;
+}
+#forum td.forum, #forum td.posts {
+	background-color: #eee;
+}
+#forum td.topics, #forum td.last-reply {
+	background-color: #ddd;
+}
+#forum td.statistics, #forum td.settings, #forum td.pager {
+	border: 1px solid #bbb;
+}
+#forum td.container {
+	background: #cdcdcd url(../images/all/forum-container.jpg) right top no-repeat; /* LTR */
+}
+#forum td.container .name a {
+	background: transparent url(../images/all/forum-link.png) left center no-repeat;
+}
+#profile .profile {
+	border: 1px solid #abc;
+}
+
+/* MENU & link STYLES */
+
+li.leaf {
+	list-style-image: url(../images/all/menu-leaf.png);
+}
+li.expanded {
+	list-style-image: url(../images/all/menu-expanded.png);
+}
+li.collapsed {
+	list-style-image: url(../images/all/menu-collapsed.png); /* LTR */
+}
+
+#subnavlist a {
+	border: 1px solid #ddd;
+	color: #444 !important;
+	background-color: #eee;
+}
+#subnavlist li a:hover {
+	background-color: #dbdbdb;
+}
+#navlist2 a {
+	color: #888 !important;
+}
+#navlist2 a:hover, #navlist2 a.active, 
+#footer a:hover, #footer a.active {
+	color: #333 !important;
+}
+
+/* MODULE SPECIFIC STYLES */
+
+.book-navigation .page-links {
+	border-top: 1px dashed #d3d3d3;
+	border-bottom: 1px dashed #d3d3d3;
+}
+.cart-block-title-bar .arrow-up {
+	background: transparent url(../images/all/menu-up.png) no-repeat center center !important;
+}
+.cart-block-title-bar .arrow-down {
+	background: transparent url(../images/all/menu-expanded.png) no-repeat center center !important;
+}
+.category-grid-products table	{
+	border-top: 1px dashed #ddd !important;
+	border-left: 1px dashed #ddd !important;
+}
+.category-grid-products td {
+	border-right: 1px dashed #ddd !important;
+	border-bottom: 1px dashed #ddd !important;
+	background-color: transparent !important;
+}
+
+
+/****************/
+/* GRAPHICS CSS */
+/****************/
+
+
+#top_left {
+	background: #FAFAD2; //light goldenrod
+}
+#top_right {
+	background: #FAFAD2; //light goldenrod
+}
+
+h1, h2, h3 {
+	color:#000;
+}
+
+a, a:link,
+.title, .title a,
+.node .terms,
+#aggregator .news-item .categories, #aggregator .source, #aggregator .age,
+#forum td .name,
+div.admin-panel .description {
+	color: #333;
+}
+
+h1.title {
+	font-size:18px;
+	line-height:130%;
+	border-bottom:1px dotted #000000;
+}
+
+.title {
+	font-size:18px;
+	line-height:130%;
+}
+
+.block.themed-block {
+	background: #fff url(../images/ink/fill_block.png) 0 100% repeat-x;
+	border: 1px solid #ddd;
+}
+
+
+#edit-submit-1 {
+	width:78px;
+	height:22px;
+	text-align:center;
+	padding: 2px 6px;
+	font-size:13px;
+	background-color: #E0B68C;
+	color: #000 !important;
+	text-transform: uppercase;
+	font-family: "times new roman", sans-serif, Arial, Verdana, Helvetica;
+}
+ul.event {
+	border-top:dotted #999;
+	line-height:120%;
+}
+li.event-title {
+	font-size: 18px;
+	font-variant:normal;
+	font-weight:bold;
+	border-bottom:1px dotted #666666;
+}
+
+li.event-description {
+	list-style-type:none;
+	margin-left:20px;
+	margin-right:20px;
+	font-size:16px;
+}
+
+li.event-date {
+	list-style-type:none;
+	margin-left:20px;
+	font-size:16px;
+	text-decoration:underline;
+	color: #000099;
+	text-align:center;
+	padding-bottom:5px;
+}
+
+.event-title2 {
+	font-size: 18px;
+	color: #000000;
+	font-variant:normal;
+	font-weight:bold;
+	margin-left:30px;
+	padding-left:10px;
+	margin-top:15px;
+}
+.event-date2 {
+	list-style-type:none;
+	font-size:16px;
+	text-decoration:underline;
+	color: #000099;
+	text-align:center;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+
+.announcement-date {
+	list-style-type:none;
+	margin-left:20px;
+	font-size:14px;
+	margin-bottom:15px;
+	text-align:right;
+}
+
+.event-thumbnails div{
+	display:inline;
+}
+.event-thumbnails div a img {
+	padding:6px;
+}
+
+div.field-content {
+	border:none;
+}
+
+ul.commentary {
+	font-size:13px;
+	list-style-type:none;
+}
+li.comment-title, li.comment-review-edit{
+	margin-left:35px;
+	list-style-type:none;
+}
+
+li.comment {
+	margin-top:10px;
+	margin-left:35px;
+	margin-right:15px;
+	font-style:italic;
+	list-style-type:none;
+}
+
+li.comment p {
+	border:none;
+	padding-bottom:0px;
+	margin-bottom:3px;
+	}
+div.views-field-name, div.views-field-timestamp {
+	display:inline;
+}
+p.comment-post-info {
+	margin-left:35px;
+	margin-right:15px;
+	margin-top:0px;
+	padding-top:0px;
+	margin-bottom:10px;
+	border-bottom:dotted #999;
+	font-size:13px;
+	text-align:right;
+	font-style:normal;
+}	
+span.comment-author {
+	color: #990000;
+	font-size:13px;
+	display:inline;
+	text-transform:uppercase;
+	}
+span.comment-date {
+	font-size:13px;
+	display:inline;
+	}
+
+.views-row {
+	line-height:130%;
+}
+
+div.newsletter-highlights p{
+	font-weight:normal;
+	font-size:16px;
+	color:#990000;
+}
+/********************************/
+/*   Card Catalog Navigation    */
+/********************************/
+.navright {
+	width:500px;
+	padding-top:55px;
+}
+
+#navlinks ul {
+}
+
+#navlinks ul li a, #navlist a {
+	width:78px;
+	height:20px;
+	text-align:center;
+	padding: 5px 6px;
+	font-size:13px;
+	background-color: #E0B68C;
+	color: #000 !important;
+	text-transform: uppercase;
+	font-family: "times new roman", sans-serif, Arial, Verdana, Helvetica;
+}
+#navlinks ul li a:hover, #navlist li a:hover {
+	color: #CC0000 !important;
+	background-color: #E0B68C;
+}
+
+
+#navlist li.menu-144 a {
+	display:inline-block;
+	margin-left:6px;
+} /* home link */
+
+#navlist li.menu-186 a {
+	display:inline-block;
+	margin-left:49px;
+} /* store info link */
+
+#navlist li.menu-187 a {
+	display:inline-block;
+	margin-left:56px;
+} /* contact link */
+
+
+
+#navlist li.menu-188 a {
+	margin-top:50px;
+	margin-left:6px;
+	display:inline-block;
+} /* games link */
+
+#navlist li.menu-230 a {
+	margin-top:50px;
+	margin-left:49px;
+	display:inline-block;
+} /* book club link */
+
+#navlist li.menu-243 a {
+	margin-top:50px;
+	margin-left:56px;
+	display:inline-block;
+} /* archives link */
+
+
+
+/* DROP DOWN LI */
+/* set li width & color */
+#navlinks ul li.expanded ul li {
+	border-left: 1px solid #4987ab;
+	border-top: 1px solid #4987ab;
+	border-right: 1px solid #005a84;
+	border-bottom: 1px solid #005a84;
+}
+
+/* DROP DOWN Anchors */
+/* first level */
+#navlinks ul li.expanded a.expandfirst {
+	background: #005a84 url(../images/nav-down.png) no-repeat 7px 50%;
+}
+#navlinks ul li.expanded a.expandfirst:hover {
+	background: #407697 url(../images/nav-down.png) no-repeat 7px 50%;
+}
+
+/* sublevels */
+#navlinks ul li.expanded a {
+	background: #457fa2;
+}
+#navlinks ul li ul li a:hover {
+	color: #fff !important;
+	background: #3f7494;
+}
+#navlinks ul li.expanded a.expand,
+#navlinks ul li.expanded ul li a.expand {
+	background: #457fa2 url(../images/nav-right.png) no-repeat 95% 9px;
+}
+#navlinks ul li ul li.expanded a.expand:hover {
+	background: #3f7494 url(../images/nav-right.png) no-repeat 95% 9px;
+}
+
+.view-header P {
+margin-top:0px;
+margin-bottom:0px;
+}
+
+h2.title {
+margin-bottom:0px;
+padding-bottom:0px;
+}
+
+p {
+	margin-top:0px;
+	margin-bottom:10px;
+	font-size:130%;
+	line-height:150%;
+}
+
+ul, li {
+	font-size:110%;
+	line-height:115%;
+}
+
+p.sidebar {
+	padding: 0 5px 0 10px;
+	font-size: 110%;
+	line-height: 120%;
+}
+
+div#node-2, div#node-11{
+	visibility:hidden;
+	display:none;
+}
+
+/*--- sidebar block icons default ---*/
+/*inklings mission*/
+#block-block-2 div.block-icon { 
+	background: transparent url(../images/icons/inklings-icon.png) no-repeat;
+}
+/*store hours*/
+#block-block-6 div.block-icon {  
+	background: transparent url(../images/icons/hours.png) no-repeat;
+}
+/*upcoming events*/
+#block-views-events-block_2 div.block-icon {
+	background: transparent url(../images/icons/calendar_icon.png) no-repeat;
+}
+/*more than books*/
+#block-block-5 div.block-icon {
+	background: transparent url(../images/icons/time-machine.png) no-repeat;
+}
+/*free games*/
+#block-block-7 div.block-icon {
+	background: transparent url(../images/icons/die.png) no-repeat;
+}
+/*games nights*/
+#block-block-8  div.block-icon {
+	background: transparent url(../images/icons/strategy-games.png) no-repeat;
+}

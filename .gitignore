@@ -1,0 +1,17 @@
+#git ignore file for BooksByInklings.com repo
+
+#ignore drupal config files
+/sites/default/settings.php
+*/sites/default/settings.php
+
+#ignore wordpress config files
+wp-config.php
+*/wp-config.php
+
+.htaccess*
+*.tar.gz
+*.gz
+*.zip
+_local/*
+_sql/*
+_archive/*

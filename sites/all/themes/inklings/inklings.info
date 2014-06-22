@@ -1,0 +1,37 @@
+name = Inklings
+description = Inklings customized theme, based on 0 Point theme <em>By <a href="http://www.radut.net">Dr. Radut</a>.<em>  Theme is compatible with UberCart.s
+
+core = 6.x
+engine = phptemplate
+screenshot = screenshot.png
+php = DRUPAL_MINIMUM_PHP
+
+stylesheets[print][] = css/print.css
+
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[above] = Above
+regions[banner] = Banner
+regions[header] = Header
+regions[content_top] = Top content
+regions[node_middle] = Middle node
+regions[node_bottom] = Bottom node
+regions[content_bottom] = Bottom content
+regions[below] = Below
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = mission
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = search
+features[] = favicon
+features[] = primary_links
+features[] = secondary_links
+; Information added by drupal.org packaging script on January 1, 1970 - 00:00
+version = "6.x-1.12"
+core = "6.x"
+project = "zeropoint"
+datestamp = "1295534820"
+
